@@ -1,8 +1,11 @@
 import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import Red from "./Red";
-import Blue from "./Blue";
-import Home from "./Home";
+import Red from "./components/Red";
+import Blue from "./components/Blue";
+import Home from "./components/Home";
+import Navbar from ".components/Navbar";
+import Footer from "./components/Footer";
+import MainContainer from ".components/MainContainer";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -16,6 +19,7 @@ function App() {
         <div id="navbar">
           <link to="/blue">Blue</link>
           <link to="/red">Red</link>
+          <link to="/">Home</link>
         </div>
         <div id="main-section">
           <Routes>
