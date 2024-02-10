@@ -1,4 +1,4 @@
-import React from "react";
+import { UseState } from "react";
 export default function Red() {
     return (
       <div className="red">
