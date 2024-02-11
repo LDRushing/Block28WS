@@ -2,9 +2,9 @@ import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import red from "./components/red";
 import blue from "./components/blue";
-import home from "./components/Home";
+import home from "./components/home";
 import Navbar from ".components/Navbar";
-import footer from "./components/Footer";
+import footer from "./components/footer";
 import MainContainer from "./components/MainContainer";
 import "./App.css";
 
@@ -28,7 +28,7 @@ function App() {
       </div>
       <div id="home">
         <Routes>
-          <Route path="/home" element={<h1>Home</h1>} />
+          <Route path="/home" element={<h1><Home</h1>} />
         </Routes>
       </div>
       <div className="card">
