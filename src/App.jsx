@@ -28,7 +28,7 @@ function App() {
       </div>
       <div id="home">
         <Routes>
-          <Route path="/home" element={<h1><Home</h1>} />
+          <Route path="/home" element={<h1>Home</h1>} />
         </Routes>
       </div>
       <div className="card">
