@@ -1,13 +1,11 @@
 import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import Red from "./components/Red";
-import Blue from "./components/Blue";
-import Home from "./components/Home";
+import red from "./components/red";
+import blue from "./components/blue";
+import home from "./components/Home";
 import Navbar from ".components/Navbar";
-import Footer from "./components/Footer";
-import MainContainer from ".components/MainContainer";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import footer from "./components/Footer";
+import MainContainer from "./components/MainContainer";
 import "./App.css";
 
 function App() {
