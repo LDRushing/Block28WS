@@ -1,5 +1,4 @@
-// Footer.jsx
-import { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -16,7 +15,6 @@ export default function Footer() {
           <li>
             <Link to="/red">Red</Link>
           </li>
-          {/* Add more links for additional routes */}
         </ul>
       </nav>
     </footer>

@@ -1,33 +1,33 @@
+body { 
+background-color: rgb(67, 16, 66);
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
+#navbar {
+  position: fixed;
+  font-size: larger;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: hwb(68 70% 0%);
+  padding: 10px;
+}
 #footer {
   position: fixed;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #333;
-  color: white;
+  background-color: hwb(68 70% 0%);
   padding: 10px;
-}
-
-#footer nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-#footer nav ul li {
-  display: inline;
-  margin-right: 10px;
-}
-
-#footer nav ul li a {
-  color: white;
-  text-decoration: none;
 }
 
 .logo {
